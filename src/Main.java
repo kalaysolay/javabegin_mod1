@@ -6,5 +6,9 @@ public class Main {
         car.color="black";
 
         Car.printCarInfo(car);
+        car.startEngine();
+        car.drive();
+        car.stopEngine();
+
     }
 }
