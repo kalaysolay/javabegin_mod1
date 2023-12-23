@@ -18,6 +18,38 @@ public class Car {
         this.color = color;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public boolean isElectric() {
+        return isElectric;
+    }
+
+    public void setElectric(boolean electric) {
+        isElectric = electric;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public static void printCarInfo(Car car){
         System.out.println("Car:  " + car.name + ", model " + car.model + " with color " + car.color + ". Is electric: " + car.isElectric + ". Weight: " + car.weight);
     }

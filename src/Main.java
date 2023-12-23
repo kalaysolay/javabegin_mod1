@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();
+      /*  Car car = new Car();
         car.name = "toyota";
         car.model="camry";
         car.color="black";
@@ -8,7 +8,15 @@ public class Main {
         Car.printCarInfo(car);
         car.startEngine();
         car.drive();
-        car.stopEngine();
+        car.stopEngine();*/
+
+        Computer ibm = new Computer();
+        ibm.name="ibm";
+        ibm.isWorking=false;
+
+        ibm.off();
+        ibm.on();
+        Car c = new Car();
 
     }
 }
